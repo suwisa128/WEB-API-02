@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json())
 let books = []
 
-app.get('/books', (req, res) => { //API คือ 1 ฟังก์ชั่น
+app.get('/books/:id', (req, res) => { //API คือ 1 ฟังก์ชั่น
     //input
 
     //process
